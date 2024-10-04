@@ -74,6 +74,8 @@ Here’s the truth table for a 1-bit full adder:
       
 &emsp;&emsp;After this you can see the window like below <br>
 
+![image](https://github.com/user-attachments/assets/b3d26055-aa12-43fa-a124-20d3053b54c2)
+
 **Fig 3:Invoke the Cadence Environment**
 
 &emsp;&emsp;To Launch Simulation tool <br>
@@ -86,11 +88,15 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .<br>
 
+![image](https://github.com/user-attachments/assets/ab18e6ba-e831-48dc-ba78-e6038e6f93db)
+
 **Fig 4:Setting Multi-step simulation**
 
 &emsp;&emsp;Select Multiple Step and then select “Create cds.lib File” .<br>
 
 &emsp;&emsp;Click the cds.lib file and save the file by clicking on Save option <br>
+
+![image](https://github.com/user-attachments/assets/e5c7cda9-ea94-4d3f-92c8-b32fea7403c5)
 
 **Fig 5:cds.lib file Creation**
 
@@ -114,6 +120,8 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. <br>
 
+![image](https://github.com/user-attachments/assets/697f013c-1366-4544-aa69-f83e618f8e16)
+
 **Fig 7: Nclaunch Window**
 
 **Step 1: Compilation:– Process to check the correct Verilog language syntax and usage**
@@ -132,6 +140,8 @@ Here’s the truth table for a 1-bit full adder:
 &emsp;&emsp;Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code <br>
 
 &emsp;&emsp;Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation<br>
+
+![image](https://github.com/user-attachments/assets/b6352d44-8310-4bd4-bfcd-ba08dae1d70c)
 
 **Fig 8: Compiled database in worklib**
 
@@ -157,6 +167,9 @@ Here’s the truth table for a 1-bit full adder:
    
 &emsp;&emsp;After elaboration the file will come under snapshot. Select the test bench and elaborate it.<br>
 
+
+![image](https://github.com/user-attachments/assets/ae1a8066-0dbf-462a-8d5e-75ce55a74e36)
+
 **Fig 9: Elaboration Launch Option**
 
 **Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour.**
@@ -169,9 +182,15 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;Steps for simulation – Run the simulation command with simulator options<br>
 
+![image](https://github.com/user-attachments/assets/4b2514a2-e4a9-4f98-84e8-b1bfe398b4b0)
+
 **Fig 10: Design Browser window for simulation**
 
+![image](https://github.com/user-attachments/assets/31f15463-9623-47e8-84e5-d17e93033884)
+
 **Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window**
+
+![image](https://github.com/user-attachments/assets/979f9be4-250f-4dfd-8baf-5ab2d8202cf2)
 
 **Fig 12: Simulation Waveform Window**
 
