@@ -74,7 +74,7 @@ Here’s the truth table for a 1-bit full adder:
       
 &emsp;&emsp;After this you can see the window like below <br>
 
-![image](https://github.com/user-attachments/assets/b3d26055-aa12-43fa-a124-20d3053b54c2)
+![20241006_041054](https://github.com/user-attachments/assets/d9c6d73b-24f4-4e2d-9a6e-a04c6e381ab9)
 
 **Fig 3:Invoke the Cadence Environment**
 
@@ -88,7 +88,7 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .<br>
 
-![image](https://github.com/user-attachments/assets/ab18e6ba-e831-48dc-ba78-e6038e6f93db)
+![Picture4](https://github.com/user-attachments/assets/32e0e7a3-c868-4cf2-b00d-f49f959f19f6)
 
 **Fig 4:Setting Multi-step simulation**
 
@@ -96,7 +96,7 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;Click the cds.lib file and save the file by clicking on Save option <br>
 
-![image](https://github.com/user-attachments/assets/e5c7cda9-ea94-4d3f-92c8-b32fea7403c5)
+![Picture5](https://github.com/user-attachments/assets/7ec7c023-972c-42a9-bed5-b54b6ec354f6)
 
 **Fig 5:cds.lib file Creation**
 
@@ -108,7 +108,7 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;&emsp;&emsp;A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure <br>
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
+![Screenshot 2024-10-05 093336](https://github.com/user-attachments/assets/8eaacf8e-98c2-4ce2-b9ac-645d919446dc)
 
 **Fig 6: Selection of Don’t include any libraries**
 
@@ -120,7 +120,7 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. <br>
 
-![image](https://github.com/user-attachments/assets/697f013c-1366-4544-aa69-f83e618f8e16)
+![Screenshot 2024-10-05 093427](https://github.com/user-attachments/assets/9f80121f-a628-4847-afd7-d094d7237048)
 
 **Fig 7: Nclaunch Window**
 
@@ -141,7 +141,7 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation<br>
 
-![image](https://github.com/user-attachments/assets/b6352d44-8310-4bd4-bfcd-ba08dae1d70c)
+![Screenshot 2024-10-05 093508](https://github.com/user-attachments/assets/29cbc647-b490-41bb-b378-023828234b1d)
 
 **Fig 8: Compiled database in worklib**
 
@@ -167,8 +167,7 @@ Here’s the truth table for a 1-bit full adder:
    
 &emsp;&emsp;After elaboration the file will come under snapshot. Select the test bench and elaborate it.<br>
 
-
-![image](https://github.com/user-attachments/assets/ae1a8066-0dbf-462a-8d5e-75ce55a74e36)
+![Screenshot 2024-10-05 093552](https://github.com/user-attachments/assets/8169b828-4d0e-43de-bbf3-24916da7ebea)
 
 **Fig 9: Elaboration Launch Option**
 
@@ -182,15 +181,15 @@ Here’s the truth table for a 1-bit full adder:
 
 &emsp;&emsp;Steps for simulation – Run the simulation command with simulator options<br>
 
-![image](https://github.com/user-attachments/assets/4b2514a2-e4a9-4f98-84e8-b1bfe398b4b0)
+![Picture3](https://github.com/user-attachments/assets/0585eddd-f9cf-47cf-a00a-3e4ba261713d)
 
 **Fig 10: Design Browser window for simulation**
 
-![image](https://github.com/user-attachments/assets/31f15463-9623-47e8-84e5-d17e93033884)
+![Picture2](https://github.com/user-attachments/assets/2a4594ca-5a50-4a4f-884c-e0cdc8fb6690)
 
 **Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window**
 
-![image](https://github.com/user-attachments/assets/979f9be4-250f-4dfd-8baf-5ab2d8202cf2)
+![Picture1](https://github.com/user-attachments/assets/903122ee-20d7-4a10-944f-840a7f752368)
 
 **Fig 12: Simulation Waveform Window**
 
