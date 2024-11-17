@@ -24,7 +24,7 @@ Here’s the truth table for a 1-bit full adder:
 
 ![tt](https://github.com/user-attachments/assets/0b3ab24f-1d7e-4a01-80ce-5e7406f4082b)
 
-**Fig 1 : Diagram and truth table of full adder**
+**<p align="center">Fig 1 : Diagram and truth table of full adder**
 
 **Logic Expressions:**
 
@@ -40,7 +40,7 @@ Here’s the truth table for a 1-bit full adder:
 
 ![image](https://github.com/user-attachments/assets/7d6fa554-2614-4f19-aa68-65c9e6153caa)
 
-**Fig 2:Diagram of 4 Bit Adder**
+**<p align="center">Fig 2:Diagram of 4 Bit Adder**
 
 **Creating Source Codes**
 
@@ -119,7 +119,7 @@ endmodule
 
 ![20241006_041054](https://github.com/user-attachments/assets/d9c6d73b-24f4-4e2d-9a6e-a04c6e381ab9)
 
-**Fig 3:Invoke the Cadence Environment**
+**<p align="center">Fig 3:Invoke the Cadence Environment**
 
 &emsp;&emsp;To Launch Simulation tool <br>
 
@@ -133,7 +133,7 @@ endmodule
 
 ![Picture4](https://github.com/user-attachments/assets/32e0e7a3-c868-4cf2-b00d-f49f959f19f6)
 
-**Fig 4:Setting Multi-step simulation**
+**<p align="center">Fig 4:Setting Multi-step simulation**
 
 &emsp;&emsp;Select Multiple Step and then select “Create cds.lib File” .<br>
 
@@ -141,7 +141,7 @@ endmodule
 
 ![Picture5](https://github.com/user-attachments/assets/7ec7c023-972c-42a9-bed5-b54b6ec354f6)
 
-**Fig 5:cds.lib file Creation**
+**<p align="center">Fig 5:cds.lib file Creation**
 
 &emsp;&emsp;Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. <br>
 
@@ -153,7 +153,7 @@ endmodule
 
 ![Screenshot 2024-10-05 093336](https://github.com/user-attachments/assets/8eaacf8e-98c2-4ce2-b9ac-645d919446dc)
 
-**Fig 6: Selection of Don’t include any libraries**
+**<p align="center">Fig 6: Selection of Don’t include any libraries**
 
 &emsp;&emsp;A ‘NCLaunch window’ appears as shown in figure below <br>
 
@@ -165,7 +165,7 @@ endmodule
 
 ![Screenshot 2024-10-05 093427](https://github.com/user-attachments/assets/9f80121f-a628-4847-afd7-d094d7237048)
 
-**Fig 7: Nclaunch Window**
+**<p align="center">Fig 7: Nclaunch Window**
 
 **Step 1: Compilation:– Process to check the correct Verilog language syntax and usage**
 
@@ -186,7 +186,7 @@ endmodule
 
 ![Screenshot 2024-10-05 093508](https://github.com/user-attachments/assets/29cbc647-b490-41bb-b378-023828234b1d)
 
-**Fig 8: Compiled database in worklib**
+**<p align="center">Fig 8: Compiled database in worklib**
 
 &emsp;&emsp;After compilation it will come under worklib you can see in right side window<br>
 
@@ -212,7 +212,7 @@ endmodule
 
 ![Screenshot 2024-10-05 093552](https://github.com/user-attachments/assets/8169b828-4d0e-43de-bbf3-24916da7ebea)
 
-**Fig 9: Elaboration Launch Option**
+**<p align="center">Fig 9: Elaboration Launch Option**
 
 **Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour.**
 
@@ -226,19 +226,21 @@ endmodule
 
 ![Picture3](https://github.com/user-attachments/assets/0585eddd-f9cf-47cf-a00a-3e4ba261713d)
 
-**Fig 10: Design Browser window for simulation**
+**<p align="center">Fig 10: Design Browser window for simulation**
 
 ![Picture2](https://github.com/user-attachments/assets/2a4594ca-5a50-4a4f-884c-e0cdc8fb6690)
 
-**Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window**
+**<p align="center">Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window**
 
 ![Picture1](https://github.com/user-attachments/assets/903122ee-20d7-4a10-944f-840a7f752368)
 
-**Fig 12: Simulation Waveform Window**
+**<p align="center">Fig 12: Simulation Waveform Window**
 
 
 
+**Result:**
 
+&emsp;&emsp;The functionality of a 4-bit adder was successfully verified using a test bench and simulated with the nclaunch tool.
 
 
 
