@@ -1,12 +1,12 @@
-# Exp-NO:1 - 4 4 Bit Adder - Write Verilog Code and Verify the Functionality using Test-bench ( Using Frontend tool - nclaunch in cadence).
+# Exp-NO:1 - 4 Bit Adder - Write Verilog Code and Verify the Functionality using Test-bench ( Using Frontend tool - nclaunch in cadence).
 
 **Aim:** <br>
 <br>
-To write a verilog code for 4bit adder and verify the functionality using Test bench.<br>
+&emsp;&emsp;To write a verilog code for 4bit adder and verify the functionality using Test bench.<br>
 
-&emsp;&emsp;Write Verilog Code<br>
+&emsp;&emsp;&emsp;&emsp;Write Verilog Code<br>
 
-&emsp;&emsp;Verify the Functionality using Test-bench.<br>
+&emsp;&emsp;&emsp;&emsp;Verify the Functionality using Test-bench.<br>
 <br>
 
 **Tool Required:** <br>
@@ -16,13 +16,12 @@ To write a verilog code for 4bit adder and verify the functionality using Test b
 
 **4-bit Adder Design:** <br>
 <br>
-&emsp;&emsp;To construct a 4-bit adder, need to chain together four 1-bit full adders. Each full adder computes the sum and carry for one bit of the two numbers. The carry-out from one adder feeds into the carry-in of the next adder in the sequence. This process adds the two 4-bit numbers bit by bit, with the carry propagating through each stage, resulting in a final sum and carry-out at the end.<br>
+&emsp;&emsp;To construct a 4-bit adder, need to chain together four 1-bit full adders. Each full adder computes the sum and carry for one bit of the two numbers. The carry-out from one adder feeds into the carry-in of the next adder in the sequence. This process adds the two 4-bit numbers bit by bit, with the carry propagating through each stage, resulting in a final sum and carry-out at the end.
 &emsp;&emsp;To design a 1-bit full adder, the first step is to create a truth table that represents all possible combinations of the inputs (A, B, and CIN) and the corresponding outputs (Sum(S) and COUT).<br>
 <br>
 
 ![image](https://github.com/user-attachments/assets/716a26b6-a449-42e0-9e2d-cdbaa4b291b9)
 
-<br>
 Here’s the truth table for a 1-bit full adder: <br>
 <br>
 
